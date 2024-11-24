@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lionelsa</title>
+
+    <link rel="icon" type="image/x-icon" href="assets_v2/img/icon/icon512.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!-- Bootstrap Files -->
+    <link rel="stylesheet" href="assets_v2/bootstrap/index.css">
+    <script src="assets_v2/bootstrap/popper.min.js"></script>
+    <script src="assets_v2/bootstrap/index.js"></script>
+
+    <!-- layout css -->
+    <link rel="stylesheet" href="assets_v2/index.css">
+
+    <!-- Jquery -->
+    <script src="assets_v2/jquery-3.7.1.min.js"></script>
+
+    <style type="text/css">
+      .timeline
+                {
+                        position: relative;
+                        max-width: 1200px;
+                        margin: 100px auto;
+                }
+                .container-time 
+                {
+                        padding: 10px 50px;
+                        position: relative;
+                        width: 50%;
+                        animation: movedown 1s linear forwards;
+                        opacity: 0;
+                }
+                @keyframes movedown
+                {
+                        0% 
+                        {
+                                opacity: 1;
+                                transform: translateY(-30px);
+                        }
+                        100% 
+                        {
+                                opacity: 1;
+                                transform: translateY(0px);
+                        }
+                }
+                .container-time:nth-child(1)
+                {
+                        animation-delay: 0s;
+                }
+                .container-time:nth-child(2)
+                {
+                        animation-delay: 1s;
+                }
+                .container-time:nth-child(3)
+                {
+                        animation-delay: 2s;
+                }
+                .container-time:nth-child(4)
+                {
+                        animation-delay: 3s;
+                }
+                .container-time:nth-child(5)
+                {
+                        animation-delay: 4s;
+                }
+                .container-time:nth-child(6)
+                {
+                        animation-delay: 5s;
+                }
+                .container-time:nth-child(7)
+                {
+                        animation-delay: 6s;
+                }
+                .container-time:nth-child(8)
+                {
+                        animation-delay: 7s;
+                }
+                .text-box
+                {
+                        padding: 20px 30px;
+                        background:  #FDBA2A;
+                        position: relative;
+                        border-radius: 6px;
+                        font-size: 15px;
+                }
+
+                .text-box small
+                {
+                        display: inline-block;
+                        margin-bottom: 15px;
+                }
+                .left-container 
+                {
+                        left: 0;
+                }
+                .right-container
+                {
+                        left:50%;
+                }
+                .container-time img
+                {
+                        position: absolute;
+                        width: 40px;
+                        border-radius: 50%;
+                        right: -20px;
+                        top: 32px;
+                        z-index: 10;
+                }
+                .right-container img
+                {
+                        left: -20px;
+                }
+                .timeline::after
+                {
+                        content: '';
+                        position: absolute;
+                        width: 6px;
+                        height: 100%;
+                        background:  #FDBA2A;
+                        top: 0;
+                        left: 50%;
+                        margin-left: -3px;
+                        z-index: -1;
+                        animation: moveline 8s linear forwards;
+                }
+                @keyframes moveline 
+                {
+                        0%
+                        {
+                                height: 0;
+                        }
+                        100%
+                        {
+                                height: 100%;
+                        }
+                }
+
+                .left-container-arrow
+                {
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        top:28px;
+                        z-index: 1;
+                        border-top: 15px solid transparent;
+                        border-bottom: 15px solid transparent;
+                        border-left: 15px solid #fff;
+                        right: -15px;
+                }
+                .right-container-arrow
+                {
+                        height: 0;
+                        width: 0;
+                        position: absolute;
+                        top:28px;
+                        z-index: 1;
+                        border-top: 15px solid transparent;
+                        border-bottom: 15px solid transparent;
+                        border-right: 15px solid #fff;
+                        left: -15px;
+                }
+
+                .phase-text
+                {
+                  color:black;
+                }
+                .phase-text p 
+                {
+                  color: #FDBA2A;
+                }
+    </style>
+    
+</head>
+  <tbody  > 
+    <!-- main body -->
+    <div class="container">
+        <div class="nav-home mt-2">
+            <ul class="nav nav-pills  justify-content-center" >
+              <li class="nav-item">
+                <a class="nav-link active text-dark rounded-pill" aria-current="page" href="https://x.com/ELSALioness2024
+"><i class='bx bxl-twitter p-2'></i>Twitter</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white rounded-pill" href="https://t.me/Elsathelioness
+"><i class='bx bxl-telegram p-2'></i>TELEGRAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white rounded-pill" href="https://discord.gg/mhhTnwwYKb
+"><i class='bx bxl-discord-alt p-2'></i>DISCORD</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-end disabled" aria-disabled="true"><img src="assets_v2/img/logono.png" width="70px" alt=""></a>
+              </li>
+            </ul>
+        </div>
+        <div class="row vstack gap-4">
+              <div class=""> 
+                  <img src="assets_v2/img/banner.jpg" width="100%" height="50%" alt=""> 
+              </div>
+                <div class="contentbody text-center">
+                  
+            </div>          
+       </div>   
+         <div class="text-center mb-4">
+           <button class="rounded-4">GRAB YOUR BAG <img src="assets_v2/img/icon/icon32.png" alt=""></button>
+         </div>
+       <div class="container card">
+          <div class="row">
+              <div class="col-sm-5 col-md-6">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="text-center">
+                     <h1><b>VISION STATEMENT</b></h1>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="htext" style="font-size: 20px;">
+                      To honour the legacy of Elsa, the lioness, by creating a world where
+                      communities unite to protect wildlife and preserve nature for future generations,
+                      leveraging the power of innovation and community-driven action
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0">
+                  <div class="card">
+                    <div class="card-header">
+                      <div class="text-center">
+                        <h1><b>MISSION STATEMENT</b></h1>
+                      </div>
+                      <div class="card-body">
+                         <div class="htext" style="font-size: 20px;">
+                            Through For Elsa: The Lioness That Changed the World, we aim to inspire
+                            global action in wildlife conservation and environmental protection. By
+                            harnessing blockchain technology, we seek to build a strong community,
+                            support impactful charity initiatives, and promote the importance of preserving
+                            our planet. Our ultimate goal is to list the coin on major exchanges,
+                            transforming passion into meaningful impact for nature.
+                         </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+       </div> 
+       <div class="row">
+       </div>
+    <!-- this the footer -->
+    <div class="card d-flex justify-content-space-evenly align-items-center border border-0 border-top-0 mt-4 rounded-4">
+        <div class="card-header">
+          <div class="h1 text-center p-2">Objectives <i class='bx bx-rocket'></i> </div>
+        </div>  
+        <div class="card-body objectives-text">
+          <h1><i class='bx bx-building-house p-2'></i>Build a Strong Community</h1>
+          <h4 class="" style="color:#FDBA2A">Foster a dedicated and engaged global community united by a shared passion for wildlife
+            conservation and environmental sustainability.</h4>
+          <h1><i class='bx bx-coin p-2'></i>Expand the Impact of the Coin:</h1>
+          <h4 class="" style="color:#FDBA2A">Leverage the coin’s platform to support meaningful initiatives in conservation and animal
+            welfare, driving both awareness and action.</h4>
+           <h1><i class='bx bxl-product-hunt p-2'></i>Launch a Charity Program:</h1>
+          <h4 class="" style="color:#FDBA2A">Develop a transparent charity program to fund wildlife conservation projects and support
+          endangered species, ensuring tangible environmental impact..</h4>
+          <h1><i class='bx bx-archive-in p-2'></i>Achieve Exchange Listings:</h1>
+          <h4 class="" style="color:#FDBA2A">Pursue listings on major cryptocurrency exchanges to enhance the coin’s visibility, trust,
+          and accessibility for investors worldwide.
+          </h4>     
+        <h1><i class='bx bx-globe p-2'></i>Raise Global Awareness:</h1>
+          <h4 class="p-2" style="color:#FDBA2A">Use the platform to educate and inspire people about the importance of protecting nature
+          and wildlife, turning investment into a force for good.</h4 >
+        </div>
+    </div>
+    </div>
+    <div class="container-footer">
+           <div class="text-center"><img src="assets_v2/img/logono.png" alt=""></div>
+           <h1 class="text-center"><i class='bx bxl-bitcoin p-2'></i>ROAD MAP<i class='bx bxl-bitcoin p-2'></i></h1>
+    </div>
+    <div class="timeline">
+      <div class="container-time left-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 1 Concept & Foundation</h2>
+          <!-- <small>Concept % Foundation</small> -->
+          <p class="phase-text">●Token Design & Creation
+            <span class="left-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time right-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 2 Community Building</h2>
+          <!-- <small>Community Building</small> -->
+          <p class="phase-text">● Marketing Campaings <br>
+            ●Partner with meme creators to drive viral campaigns. <span class="right-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time  left-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 1.1</h2>
+          <!-- <small class="">Concept % Foundation</small> -->
+          <p class="phase-text">● Develop tokenomics (e.g., total supply, burn mechanism, rewards).
+            <span class="left-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time  right-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 2.1</h2>
+          <!-- <small>Phase1: Concept % Foundation</small> -->
+          <p class="phase-text"> ● Launch the “ELSA Challenge” (e.g., create memes or videos about ELSA).
+Community Engagement<br> 
+            <span class="right-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time  left-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 1.1.1</h2>
+          <!-- <small>Phase1: Concept % Foundation</small> -->
+          <p class="phase-text">● Deploy the token on Solana blockchain (SOL).
+            <span class="left-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time  right-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 2.1.1</h2>
+          <!-- <small>Phase1: Concept % Foundation</small> -->
+          <p class="phase-text">● Host AMAs (Ask Me Anything) and giveaways.
+Introduce staking rewards to encourage long-term holding.<br>
+● Aim for listings on Market (CMC, CG)  and  mid-tier centralized exchanges (CEXs) like KuCoin , Gateio , Mexc, bybit, Binance
+Strategic Partnerships
+            <span class="right-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+       <div class="container-time  left-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 1.1.1.1</h2>
+          <!-- <small>Phase1: Concept % Foundation</small> -->
+          <p class="phase-text">● Publish a whitepaper outlining the purpose and vision.
+            <span class="left-container-arrow"></span>
+          </p>
+        </div>
+      </div>
+      <div class="container-time  right-container">
+        <div class="text-box">
+          <h2 class="phase-text">Phase 2.1.1.1</h2>
+          <!-- <small>Phase1: Concept % Foundation</small> -->
+          <p class="phase-text"> ●  Centralized Exchange Listings<br>
+● Collaborate with influencers and blockchain projects.
+Explore integration with metaverse platforms.    
+            <span class="right-container-arrow"></span>
+          </p>
+        </div>
+      </div>   
+    </div>
+    <!-- end of timeline -->
+
+    <div class="container">
+      <p class="text-center">FOR MORE DETAILS, VISIT OUR GROUP PAGE</p>
+      <div class="row rounded-4">
+        <div class="nav-home mt-2">
+            <ul class="nav nav-pills  justify-content-center" >
+              <li class="nav-item">
+                <a class="nav-link active text-dark rounded-pill" aria-current="page" href="https://x.com/ELSALioness2024
+"><i class='bx bxl-twitter p-2'></i>Twitter</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-white rounded-pill" href="https://t.me/Elsathelioness
+"><i class='bx bxl-telegram p-2'></i>TELEGRAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white rounded-pill" href="https://discord.gg/mhhTnwwYKb
+"><i class='bx bxl-discord-alt p-2'></i>DISCORD</a>
+              </li>
+            </ul>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
+    
+  <!--   <script type="text/javascript" src="assets_v2/js/constants.js"></script>
+    <script type="text/javascript" src="assets_v2/js/security.js"></script> -->
+    <script src="assets_v2/index.js"></script>
+
+   
